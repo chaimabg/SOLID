@@ -4,11 +4,11 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class MyFileWriter implements IWriter
+public class FileWriter implements IWriter
 {
     private String _fileName;
 
-    public MyFileWriter(String fileName)
+    public FileWriter(String fileName)
     {
         _fileName = fileName;
     }

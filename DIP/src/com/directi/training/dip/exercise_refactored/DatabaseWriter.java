@@ -1,11 +1,11 @@
 package com.directi.training.dip.exercise_refactored;
 
-public class MyDatabaseWriter implements IWriter
+public class DatabaseWriter implements IWriter
 {
     @Override
     public void write(String input)
     {
-        MyDatabase database = new MyDatabase();
+        Database database = new MyDatabase();
         database.write(input);
     }
 }

@@ -4,11 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class MyFileReader implements IReader
+public class FileReader implements IReader
 {
     private String _fileName;
 
-    public MyFileReader(String fileName)
+    public FileReader(String fileName)
     {
         _fileName = fileName;
     }

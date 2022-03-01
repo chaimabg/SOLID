@@ -14,8 +14,8 @@ public class EncodingModuleClient
             "DIP/src/com/directi/training/dip/exercise_refactored/afterEncryption.txt");
         encodingModule.encode(reader, writer);
 
-        reader = new MyNetworkReader("http", "myfirstappwith.appspot.com", "/index.html");
-        writer = new MyDatabaseWriter();
+        reader = new NetworkReader("http", "myfirstappwith.appspot.com", "/index.html");
+        writer = new DatabaseWriter();
         encodingModule.encode(reader, writer);
     }
 }

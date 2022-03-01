@@ -5,13 +5,13 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class MyNetworkReader implements IReader
+public class NetworkReader implements IReader
 {
     private String _protocol;
     private String _host;
     private String _file;
 
-    public MyNetworkReader(String protocol, String host, String file)
+    public NetworkReader(String protocol, String host, String file)
     {
         _protocol = protocol;
         _host = host;

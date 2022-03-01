@@ -1,6 +1,6 @@
 package com.directi.training.ocp.exercise_refactored;
 
-public interface Resource
+public interface IResource
 {
     int findFree();
 
